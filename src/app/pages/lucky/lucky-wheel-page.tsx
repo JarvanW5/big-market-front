@@ -9,7 +9,8 @@ import {RaffleAwardVO} from "@/types/RaffleAwardVO";
 
 export function LuckyWheelPage() {
     const [prizes, setPrizes] = useState([{}])
-    const myLucky = useRef()
+    const myLucky = useRef(null);
+
 
     const [blocks] = useState([
         {padding: '10px', background: '#869cfa', imgs: [{src: "https://bugstack.cn/images/system/blog-03.png"}]}
