@@ -13,7 +13,7 @@ import {RaffleAwardVO} from "@/types/RaffleAwardVO";
 // @ts-ignore
 export function LuckyGridPage({handleRefresh}) {
     const [prizes, setPrizes] = useState([{}])
-    const myLucky = useRef()
+    const myLucky = useRef(null)
 
     const queryRaffleAwardListHandle = async () => {
         const queryParams = new URLSearchParams(window.location.search);
