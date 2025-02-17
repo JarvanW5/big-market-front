@@ -1,1 +1,1 @@
-docker build -t jarvan01/big-market-front-app:3.0 .
+docker build -t jarvan01/big-market-front-app:3.1 .
